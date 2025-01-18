@@ -33,26 +33,21 @@
           <li class="relative group">
             <a href="#" class="hover:text-gray-300">Products</a>
             <!-- Dropdown -->
-            <ul class="absolute hidden group-hover:block bg-white text-black p-2 mt-1 shadow-lg mr-10">
-              <li><a href="#" class="block px-4 py-2 hover:bg-gray-200">Action</a></li>
-              <li><a href="#" class="block px-4 py-2 hover:bg-gray-200">Another action</a></li>
+            <ul class="absolute hidden group-hover:block p-2 mt-1 shadow-lg mr-10">
+              <li><a href="#lookup" class="block bg-black text-white px-4 py-2 hover:bg-gray-200">Technology Lookup</a></li>
+              <li><a href="#list" class="block bg-black text-white px-4 py-2 hover:bg-gray-200">Lead Lists</a></li>
               <li>
-                <hr class="border-t my-1">
               </li>
-              <li><a href="#" class="block px-4 py-2 hover:bg-gray-200">Something else here</a></li>
             </ul>
           </li>
           <li><a href="#" class="hover:text-gray-300">Pricing</a></li>
           <li class="relative group">
             <a href="#" class="hover:text-gray-300">Resources</a>
             <!-- Dropdown -->
-            <ul class="absolute hidden group-hover:block bg-white text-black p-2 mt-1 shadow-lg">
-              <li><a href="#" class="block px-4 py-2 hover:bg-gray-200">Action</a></li>
-              <li><a href="#" class="block px-4 py-2 hover:bg-gray-200">Another action</a></li>
+            <ul class="absolute hidden group-hover:block p-2 mt-1 shadow-lg">
+              <li><a href="#tech" class="block bg-black text-white px-4 py-2 hover:bg-gray-200">Technologies</a></li>
+              <li><a href="#" class="block bg-black text-white px-4 py-2 hover:bg-gray-200">Documentation</a></li>
               <li>
-                <hr class="border-t my-1">
-              </li>
-              <li><a href="#" class="block px-4 py-2 hover:bg-gray-200">Something else here</a></li>
             </ul>
           </li>
           <div>
@@ -200,7 +195,7 @@
     <div class="m-3">
       <div class="flex pt-12">
         <img src="https://cdn.worldvectorlogo.com/logos/wappalyzer-white-1.svg" alt="" style="height: 5%; width: 3%;">
-        <h2 class="text-sm ml-4"><b>TECHNOLOGY LOOKUP</b></h2>
+        <h2 class="text-sm ml-4" id="lookup"><b>TECHNOLOGY LOOKUP</b></h2>
       </div>
       <div class="lg:grid lg:grid-cols-4 lg:gap-3 lg:pb-12">
         <div class="lg:col-span-3">
@@ -236,7 +231,7 @@
         <img src="https://www.wappalyzer.com/images/products/lists.png" alt="">
       </div>
       <div class="lg:col-span-3">
-        <h2 class="text-2xl lg:py-2"><b>Create lists of websites and contacts</b></h2>
+        <h2 class="text-2xl lg:py-2" id="list"><b>Create lists of websites and contacts</b></h2>
         <h3 class="pb-8">Find prospects by the technologies they use. Lead lists contain websites, company and contact
           details, social media profiles and more. Create and export custom reports for any web technology or keyword
           based on industry, website traffic and location.</h3>
@@ -263,7 +258,7 @@
   
 
     <div class="px-6 mb-12 pb-12">
-      <h3 class="text-3xl py-4 font-medium">Apps</h3>
+      <h3 class="text-3xl py-4 font-medium" id="tech">Apps</h3>
       <h4 class="text-2xl">WebStackTrace works with the tools you use every day.</h4>
       <div class="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2">
         <div class="p-6">
